@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Template</title>
+
+    <!-- Start Main Style Sheet -->
+    <link rel="stylesheet" href="/main.css">
+    <!-- End Main Style Sheet -->
+    <!-- ======================= -->
+    <!-- Start Font Icons library  -->
+    <link rel="stylesheet" href="/fontawesome-all.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> -->
+    <!-- End Font Icons library  -->
+    <!-- ======================= -->
+    <!-- Start Nice Reset -->
+    <link rel="stylesheet" href="/normalize.css">
+    <!-- End Nice Reset -->
+</head>
+
+<body>
+
+    <!-- Start Container -->
+
+    <div class="container">
+
+        <!-- Start Header -->
+        <header id="header">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>fashion store</h1>
+                </a>
+            </div>
+            <nav class="wideScreen">
+                <ul class="overlay-content">
+                    <li><a href="index.html" id="disabled">Home</a></li>
+                    <li class="dropdown">
+                        <button class="dropbtn"><span class="arrow-up active"></span> Layout</button>
+                        <span class="arrow-down"></span>
+                        <div class="dropdown-content">
+                            <a href="generic.html">Generic</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="elements.html>Elements</a>
+                            <a href="#" id="end">Submenu</a>
+                        </div>
+                    </li>
+                    <li id="signUp"><a href="index.html">sign up</a></li>
+                </ul>
+                
+            </nav>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+                <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            
+        </header>
+        <!-- End Header -->
+        <!-- ============== -->
+        <!-- ============== -->
+        <div class="banner">
+            <h2>Alpha</h2>
+            <p>Another fine responsive site template freebie by<a href="#" id="btn"">@Mahmoud-Hamed.</a></p>
+                    <ul class=" btn">
+                    <li><a href="#subscribe" class="button primary">Sign Up</a></li>
+                    <li><a href="#" class="button secondary">Learn More</a></li>
+                    </ul>
+        </div>
+        <main>
+            <div class="special-box">
+                <section class="header">
+                        <h3>Introducing the ultimate mobile app<br>
+                            for doing stuff with your phone</h3>
+                        <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare
+                            adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+                </section>
+                <span class="image">
+                    <img src="https://i.ibb.co/4pmCtxK/pic01.jpg" alt="pic01" border="0">
+                </span>
+            </div>
+            <div class="product-box">
+                <div class="box box-1">
+                    <img src="https://img.icons8.com/dusk/96/000000/baseball-cap.png" />
+                    <h3>Magna etiam</h3>
+                    <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum
+                        phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                </div>
+                <div class="box box-2">
+                    <img src="https://img.icons8.com/dusk/96/000000/bag-front-view.png" />
+                    <h3>Ipsum dolor</h3>
+                    <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum
+                        phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                </div>
+                <div class="box box-3">
+                    <img src="https://img.icons8.com/dusk/96/000000/umbrella.png" />
+                    <h3>Sed feugiat</h3>
+                    <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum
+                        phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                </div>
+                <div class="box box-4">
+                    <img src="https://img.icons8.com/dusk/96/000000/watches-front-view.png" />
+                    <h3>Enim phasellus</h3>
+                    <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum
+                        phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="right">
+                    <img src="https://i.ibb.co/5xbNHfJ/pic02.jpg" alt="pic02">
+                    <h3>Sed lorem adipiscing</h3>
+                    <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum
+                        phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <button type="submit">Read more</button>
+                </div>
+                <div class="left">
+                    <img src="https://i.ibb.co/8cwkNMg/pic03.jpg" alt="pic03">
+                    <h3>Accumsan integer</h3>
+                    <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum
+                        phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <button type="submit">Read more</button>
+                </div>
+            </div>
+            
+        </main>
+        <!-- End Main -->
+        <div class="contact-us">
+            <h3>Sign up for beta access</h3>
+            <p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+            <input type="email" name="" id="subscribe" placeholder="Email Address">
+            <input id="button" type="submit" value="Sign Up">
+        </div>
+        <!-- ============== -->
+        <!-- ============== -->
+
+        <!-- Start Footer -->
+        <footer>
+            <div class="footer">
+                <ul class="icon">
+                    <li><a href="https://twitter.com/Mahmoud9721" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-twitter fa-2x"></i></a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                    <li><a href="http://github.com/mahmoudHamed97" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/mahmmoud_hamed97/" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></a></i></li>
+                    <li><a href="https://codepen.io/mahmoudHamed" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></li>
+                    <li><a href="http://www.freecodecamp.org/mahmmoud9721" target="_blank" rel="noopener noreferrer"><i class="fab fa-free-code-camp fa-2x"></i></a></li>
+                </ul>
+                <!-- <a class="fab fa-twitter fa-2x" href="#"></a> -->
+                <ul class="copyright">
+                    <li>© Untitled. All rights reserved.</li>
+                    <li class="link">Design: <a href="https://github.com/mahmoudHamed97">Mahmoud Hamed.</a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        </div>
+        <!-- End Container -->
+        <script src="/brands.min.js"></script>
+        <script src="/fontawesome.min.js"></script>
+        <script src="/main.js"></script>
+        <script>
+            window.onscroll = function () {
+            scrollFunction()
+            };
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 590 || document.documentElement.scrollTop > 590) {
+            document.getElementById("header").style.backgroundColor = "#444";
+            document.getElementById("header").style.position = "fixed";
+            document.getElementById("disabled").style.backgroundColor = "#444";
+            } else {
+            document.getElementById("header").style.background = "transparent";
+            document.getElementById("header").style.position = "absolute";
+            document.getElementById("disabled").style.backgroundColor = "transparent";
+            }
+            }
+
+            function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

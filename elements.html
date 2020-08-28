@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements</title>
+
+    <!-- Start Main Style Sheet -->
+    <link rel="stylesheet" href="/css/elements.css">
+    <!-- End Main Style Sheet -->
+    <!-- ======================= -->
+    <!-- Start Font Icons library  -->
+    <link rel="stylesheet" href="/fontawesome-all.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> -->
+    <!-- End Font Icons library  -->
+    <!-- ======================= -->
+    <!-- Start Nice Reset -->
+    <link rel="stylesheet" href="/normalize.css">
+    <!-- End Nice Reset -->
+</head>
+
+<body>
+
+    <!-- Start Container -->
+
+    <div class="container">
+
+        <!-- Start Header -->
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Fashion Store</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="disabled">Home</a></li>
+                    <li class="dropdown">
+                        <button class="dropbtn"><span class="arrow-up active"></span> Layout</button>
+                        <span class="arrow-down"></span>
+                        <div class="dropdown-content">
+                            <a href="generic.html">Generic</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="#">Elements</a>
+                            <a href="#" id="end">Submenu</a>
+                        </div>
+                    </li>
+                    <li id="signUp"><a href="index.html">sign up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- End Header -->
+        <!-- ============== -->
+        <!-- ============== -->
+        <!-- Start Main -->
+        <main>
+            <div class="header">
+                <h2>Elements</h2>
+                <p>Just an assorted selection of elements.</p>
+            </div>
+            <div class="special-box">
+                <div>
+                    <h3>Text</h3>
+                    <p class="main-p">This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and
+                        this is
+                        <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+                        This
+                        is <u>underlined</u> and this is code: <code>for (;;) { ...}</code>. Finally, <a href="#">this
+                            is a
+                            link</a>.</p>
+                    <hr>
+                    <h3>Heading with a Subtitle</h3>
+
+                    <p><em>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</em></p>
+
+                    <p class="main-p">Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem
+                        non mi
+                        integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia
+                        sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+
+                    <h4>Heading with a Subtitle</h4>
+
+                    <p><em>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</em></p>
+
+                    <p class="main-p">Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem
+                        non mi
+                        integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia
+                        sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                    <hr>
+                    <h2>Heading Level 2</h2>
+                    <h3>Heading Level 3</h3>
+                    <h4>Heading Level 4</h4>
+                    <h5>Heading Level 5</h5>
+                    <h6>Heading Level 6</h6>
+                    <hr>
+
+                    <h4>Blockquote</h4>
+
+                    <blockquote><em>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget
+                            tempus euismod.
+                            Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                            volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem
+                            ipsum
+                            dolor sit amet nullam adipiscing eu felis.</em></blockquote>
+
+                    <h4>Preformatted</h4>
+
+                    <pre>
+i = 0;
+
+    while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+    }
+    print 'It took ' + i + ' iterations to sort the deck.';
+                                </pre>
+
+                </div>
+            </div>
+            
+            <div class="special-box">
+                <h3 class="list">Lists</h3>
+                <div class="box-1">
+                    <div class="left">
+                        <h5>Unordered</h5>
+
+                        <ul class="toRight">
+                            <li>Dolor pulvinar etiam magna etiam.
+                            </li>
+                            <li>Sagittis adipiscing lorem eleifend.
+                            </li>
+                            <li>Felis enim feugiat dolore viverra.</li>
+                        </ul>
+
+                        <h5>Alternate</h5>
+                        <ul class="none">
+                            <li>Dolor pulvinar etiam magna etiam.
+                            </li>
+                            <li class="middle">Sagittis adipiscing lorem eleifend.
+                            </li>
+                            <li>Felis enim feugiat dolore viverra.</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="right">
+                        <h5>Ordered</h5>
+                        <ol>
+                            <li>Dolor pulvinar etiam magna etiam.</li>
+                            <li>Etiam vel felis at lorem sed viverra.</li>
+                            <li>Felis enim feugiat dolore viverra.</li>
+                            <li>Dolor pulvinar etiam magna etiam.</li>
+                            <li>Etiam vel felis at lorem sed viverra.</li>
+                            <li>Felis enim feugiat dolore viverra.</li>
+                        </ol>
+                        <h5>Icons</h5>
+                        <ul class="icon">
+                            <li><i class="fab fa-twitter fa-2x"></i></li>
+                            <li><i class="fab fa-linkedin-in fa-2x"></i></li>
+                            <li><i class="fab fa-github fa-2x"></i></li>
+                            <li><i class="fab fa-instagram fa-2x"></i></li>
+                            <li><i class="fab fa-codepen fa-2x"></i></li>
+                            <li><i class="fab fa-free-code-camp fa-2x"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4>Actions</h4>
+                <div class="box-2">
+                    <div class="left-box-with-btn">
+                        <div class="someButtons">
+                            <button>Default</button>
+                            <button>Default</button>
+                            <button>Default</button>
+                            <button>Small</button>
+                            <button>Small</button>
+                            <button>Small</button>
+                            <button>Default</button>
+                            <button>Default</button>
+                            <button>Default</button>
+                            <button>Small</button>
+                            <button>Small</button>
+                            <button>Small</button>
+                        </div>
+                    </div>
+                    <div class="right-box-with-btn">
+                        <button>Default</button>
+                        <button>Default</button>
+                        <button>Default</button>
+                        <button>Small</button>
+                        <button>Small</button>
+                        <button>Small</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- End Main -->
+
+        <!-- ============== -->
+        <!-- ============== -->
+
+        <!-- Start Footer -->
+        <footer>
+            <div class="footer">
+                <ul class="icon">
+                    <li><i class="fab fa-twitter fa-2x"></i></li>
+                    <li><i class="fab fa-linkedin-in fa-2x"></i></li>
+                    <li><i class="fab fa-github fa-2x"></i></li>
+                    <li><i class="fab fa-instagram fa-2x"></i></li>
+                    <li><i class="fab fa-codepen fa-2x"></i></li>
+                    <li><i class="fab fa-free-code-camp fa-2x"></i></li>
+                </ul>
+                <!-- <a class="fab fa-twitter fa-2x" href="#"></a> -->
+                <ul class="copyright">
+                    <li>© Untitled. All rights reserved.</li>
+                    <li class="link">Design: <a href="https://github.com/mahmoudHamed97">Mahmoud Hamed.</a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+    <!-- End Container -->
+    <script src="/brands.min.js"></script>
+    <script src="/fontawesome.min.js"></script>
+</body>
+
+</html>
